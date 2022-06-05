@@ -8,3 +8,5 @@ handlers:
 - url: /(.*)
   static_files: www/\1
   upload: www/(.*)
+env_variables:
+    CLOUD_STORAGE_BUCKET: dicoding-submission-gcp01.appspot.com
